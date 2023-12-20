@@ -5,8 +5,8 @@ public class GenericMethod {
 
         Persona persona1 = new Persona("Oscar", "Bierge",33);
 
-        GenericMethod.socUnMetodeGeneric(persona1, "Ordinador", 44);
-        GenericMethod.socUnMetodeGeneric("Ordinador", 44, persona1);
+        socUnMetodeGeneric(persona1, "Ordinador", 44);
+        socUnMetodeGeneric("Ordinador", 44, persona1);
 
 
     }
